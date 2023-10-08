@@ -1,0 +1,46 @@
+ /* body(ルート要素)フォントの設定 */
+ body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center; /* テキストを中央寄せ */
+  font-size:20px;
+}
+
+/*h1のフォントの設定 */
+h1 {
+  font-family: 'Josefin Sans', sans-serif;/*h1要素にGoogleフォント「Josefin Sans」を適用*/
+  font-size: 40px; /* ルート要素のフォントサイズの2倍 */
+  letter-spacing: 1.2em; /* 文字間隔を1.2倍に */
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* 影を追加 */
+  border-bottom: 3px solid rgb(115, 115, 114); /* 下に実線を追加 */
+}
+
+/* 部分設定 */
+
+/* MYPROFILEの"M" をスカイブルーに設定 */
+.profile {
+  color: skyblue;
+}
+
+/* MYPROFILEの"P" をピンクに設定 */
+.profile2 {
+  color: rgb(255, 192, 203);
+}
+
+/*「名前」「血液型」「好きな食べ物」の見出しにはピンク*/
+.name ,
+.bloodtype ,
+.food   {
+  color: rgb(255, 192, 203); /* "P" の色をピンクに */
+}
+
+/*「生年月日」「趣味」「プログラミングを始めた理由」の見出しにはスカイブルー*/
+.birthday ,
+.hobby,
+.reason {
+  color:skyblue;
+}
+
+/* 「侍太郎」「1990年1月1日」「O型」のみ太文字に設定(id属性basicのdivタグで囲んでやると簡単) */
+#basic p {
+  font-weight: bold;
+}
